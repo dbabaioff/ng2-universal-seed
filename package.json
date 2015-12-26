@@ -1,0 +1,33 @@
+{
+  "name": "ng2-universal-seed",
+  "version": "1.0.0",
+  "description": "Seed project for Angular 2 universal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbabaioff/ng2-universal-seed.git"
+  },
+  "keywords": [
+    "angular2",
+    "universal"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbabaioff/ng2-universal-seed/issues"
+  },
+  "homepage": "https://github.com/dbabaioff/ng2-universal-seed#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "rxjs": "5.0.0-beta.0",
+    "angular2-universal": "angular/universal"
+  },
+  "devDependencies": {
+    "ts-loader": "0.7.2",
+    "typescript": "1.7.5",
+    "webpack": "1.12.9",
+    "webpack-dev-server": "1.14.0"
+  }
+}
