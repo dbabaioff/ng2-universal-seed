@@ -5,6 +5,7 @@ module.exports = {
         'app': './src/boot.ts',
         'vendor': './src/vendor.ts'
     },
+    target: 'node',
     output: {
         path: __dirname + '/dist',
         publicPath: 'dist/',
