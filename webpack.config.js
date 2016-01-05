@@ -5,10 +5,10 @@ module.exports = {
         'app': './src/boot.ts',
         'vendor': './src/vendor.ts'
     },
-    target: 'node',
+    target: 'web',
     output: {
-        path: __dirname + '/dist',
-        publicPath: 'dist/',
+        path: __dirname + '/dist/client',
+        publicPath: 'dist/client',
         filename: 'bundle.js'
     },
     plugins: [

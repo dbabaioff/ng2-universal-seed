@@ -1,10 +1,8 @@
 var express   = require('express');
 var ng2engine = require('angular2-universal-preview').ng2engine;
 
-console.log(ng2engine);
-
 // Angular 2
-var App = require('./dist/bundle').App;
+var App = require('./dist/server/app').App;
 
 var app = express();
 

@@ -6,9 +6,15 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "outDir": "dist/server"
   },
   "exclude": [
     "node_modules"
+  ],
+  "files": [
+    "src/app.ts",
+    "src/boot.ts",
+    "universal.d.ts"
   ]
 }
