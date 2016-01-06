@@ -17,7 +17,12 @@ app.use(express.static(__dirname));
 
 
 app.use('/', function(req, res) {
-    res.render('index', {App: App});
+    if (req.url === '/favicon.ico') {
+        return;
+    }
+
+    //res.render('index', {App: App, enableProdMode: true});
+    res.render('index', {App: App);
 });
 
 app.listen(3000, function() {
