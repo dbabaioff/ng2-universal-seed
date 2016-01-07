@@ -24,7 +24,7 @@ app.use('/', function(req, res) {
     }
 
     //res.render('index', {App: App, enableProdMode: true});
-    res.render('index', {App: App);
+    res.render('index', {App: App});
 });
 
 app.listen(3000, function() {
