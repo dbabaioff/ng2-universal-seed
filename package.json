@@ -1,13 +1,15 @@
 {
   "name": "ng2-universal-seed",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Seed project for Angular 2 universal",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "tsc",
-    "build": "webpack",
+    "watch": "./node_modules/.bin/tsc -w && ./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/tsc && ./node_modules/.bin/webpack",
     "prestart": "npm run build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "universal": "./node_modules/.bin/tsc -p ./node_modules/angular2-universal-preview",
+    "watch-universal": "./node_modules/.bin/tsc -w -p ./node_modules/angular2-universal-preview"
   },
   "repository": {
     "type": "git",

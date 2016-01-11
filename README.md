@@ -3,7 +3,6 @@ Seed project for Angular 2 Universal
 
 ## Installation
 
-* `npm install --global typescript tsc webpack`
 * `npm install`
 
 ## Serve
