@@ -4,7 +4,7 @@
   "description": "Seed project for Angular 2 universal",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "./node_modules/.bin/tsc -w && ./node_modules/.bin/webpack --watch",
+    "watch": "./node_modules/.bin/tsc -w & ./node_modules/.bin/webpack --watch",
     "build": "./node_modules/.bin/tsc && ./node_modules/.bin/webpack",
     "prestart": "npm run build",
     "start": "node server.js",
